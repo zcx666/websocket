@@ -1,0 +1,19 @@
+spring:
+  freemarker:
+    suffix: .ftl
+  redis:
+    host: 192.168.199.88
+    port: 6378
+    password: 
+    database: 1
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1ms
+    timeout: 5000ms
+          
+    
+          
+rabbitmq.userName: guest
